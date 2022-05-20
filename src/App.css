@@ -1,0 +1,223 @@
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.formWrapper {
+  background: #282a36;
+  padding: 20px;
+  padding-top: 10px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: #4aee88;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel {
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.homePageLogo {
+  height: 70px;
+  margin-right: 15px;
+  margin-left: 40px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn,
+.leaveBtn {
+  background: #4aed88;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+  background: #2b824c;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn {
+  color: #4aed88;
+  text-decoration: none;
+  border-bottom: 1px solid #4aed88;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+  color: #368654;
+  border-color: #368654;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside {
+  background: #1c1e29;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userName {
+  margin-top: 10px;
+}
+
+.logo {
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.home__header {
+  line-height: 1;
+  font-size: 32px;
+}
+.logo__header {
+  font-size:22px;
+}
+
+.logoImage {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.leaveBtn {
+  width: 100%;
+  margin-top: 20px;
+}
+.CodeMirror {
+  min-height: calc(50vh - 42px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.editorWrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#frame {
+    width: 99.4%;
+    height: 100%;
+    background-color: #fff;
+    color:#000;
+}
+
+#editor {
+    display: none;
+}
+
+.editor-name {
+    position: absolute;
+    top:0;
+    z-index: 1;
+    background-color: #1c1e29;
+    width:42.5%;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.editor-name-js {
+    left: 232px;
+}
+
+.editor-name-html {
+    right: 0;
+}
+
+.editor-name-css {
+    left: 232px;
+    top: 359px;
+}
+
+.runBtn,.newTabBtn {
+  position: absolute;
+  z-index: 1;
+  left: 16px;
+  bottom:137px;
+  width:198px;
+}
+
+.newTabBtn {
+  bottom: 195px;
+}
+
+.copyBtn:hover,
+.runBtn:hover,
+.newTabBtn:hover {
+  background-color: rgb(148, 148, 148);
+}
